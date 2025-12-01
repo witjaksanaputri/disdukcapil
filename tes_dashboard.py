@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import os
 
 # 1. KONFIGURASI HALAMAN
 st.set_page_config(page_title="PROFIL KEPENDUDUKAN & LAYANAN SIPIL KOTA BOGOR", layout="wide", page_icon="🏛️")
@@ -298,4 +298,5 @@ with c_bawah3:
         else:
             st.info("Data detail pekerjaan kosong.")
     else:
+
         st.info("File Ekonomi belum ada.")
